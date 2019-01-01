@@ -2,7 +2,7 @@
 
 set -e
 
-TAGS=(latest-jdk 8-jdk 8u192-jdk)
+TAGS=(latest 8 8u192 8u192-b12)
 
 # parse image name to get the repository name
 TAG_START=$(expr index "${IMAGE_NAME}" :)
