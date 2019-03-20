@@ -14,7 +14,7 @@ RUN set -ex \
     && apt-get update \
     && apt-get install -y --no-install-recommends curl ca-certificates \
     && mkdir -p ${JAVA_INSTALL_DIR} \
-    && curl -fSL ${JAVA_DOWNLOAD_URL} | tar -xz --no-same-owner --strip-components=2 -C ${JAVA_INSTALL_DIR} \
+    && curl -fSL ${JAVA_DOWNLOAD_URL} | tar -xz --no-same-owner --strip-components=1 -C ${JAVA_INSTALL_DIR} \
     && apt-get remove -y curl ca-certificates \
     && apt-get autoremove -y \
     && rm -rf /var/lib/apt/lists/*
