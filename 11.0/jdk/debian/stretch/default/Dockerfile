@@ -5,7 +5,7 @@ LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
 # Install Adopt Open Java Development Kit (AdoptOpenJDK)
 
-ARG JAVA_VERSION=jdk-11.0.1%2B13
+ARG JAVA_VERSION=jdk-11.0.2%2B9
 ARG JAVA_DOWNLOAD_URL=https://api.adoptopenjdk.net/v2/binary/releases/openjdk11?os=linux&arch=x64&release=${JAVA_VERSION}&type=jdk&openjdk_impl=hotspot&heap_size=normal
 
 ARG JAVA_INSTALL_DIR=/opt/java/openjdk

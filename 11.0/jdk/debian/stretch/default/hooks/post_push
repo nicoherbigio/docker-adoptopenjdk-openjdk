@@ -2,7 +2,7 @@
 
 set -e
 
-TAGS=(11 11.0 11.0.1 11.0.1u13)
+TAGS=(11 11.0 11.0.2 11.0.2u9)
 
 # parse image name to get the repository name
 TAG_START=$(expr index "${IMAGE_NAME}" :)
