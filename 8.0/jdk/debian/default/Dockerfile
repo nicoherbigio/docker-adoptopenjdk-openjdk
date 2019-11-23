@@ -5,14 +5,13 @@ LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
 # Install Adopt Open Java Development Kit (AdoptOpenJDK)
 
-ARG JAVA_VERSION=jdk8u212-b03
-ARG JAVA_DOWNLOAD_URL=https://api.adoptopenjdk.net/v2/binary/releases/openjdk8?os=linux&arch=x64&release=${JAVA_VERSION}&type=jdk&openjdk_impl=hotspot&heap_size=normal
+ARG JAVA_DOWNLOAD_URL=https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/download/jdk8u232-b09/OpenJDK8U-jdk_x64_linux_hotspot_8u232b09.tar.gz
 
 ARG JAVA_INSTALL_DIR=/opt/java/openjdk
 
-RUN set -ex \
+RUN set -euxo \
     && apt-get update \
-    && apt-get install -y --no-install-recommends curl ca-certificates \
+    && apt-get install -y --no-install-recommends curl ca-certificates fontconfig \
     && mkdir -p ${JAVA_INSTALL_DIR} \
     && curl -fSL ${JAVA_DOWNLOAD_URL} | tar -xz --no-same-owner --strip-components=1 -C ${JAVA_INSTALL_DIR} \
     && apt-get remove -y curl ca-certificates \
