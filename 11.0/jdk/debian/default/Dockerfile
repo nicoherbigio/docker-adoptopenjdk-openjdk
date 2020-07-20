@@ -5,7 +5,7 @@ LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
 # Install Adopt Open Java Development Kit (AdoptOpenJDK)
 
-ARG JAVA_DOWNLOAD_URL=https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.7%2B10/OpenJDK11U-jdk_x64_linux_hotspot_11.0.7_10.tar.gz
+ARG JAVA_DOWNLOAD_URL=https://github.com/AdoptOpenJDK/openjdk11-binaries/releases/download/jdk-11.0.8%2B10/OpenJDK11U-jdk_x64_linux_hotspot_11.0.8_10.tar.gz
 
 ARG JAVA_INSTALL_DIR=/opt/java/openjdk
 
