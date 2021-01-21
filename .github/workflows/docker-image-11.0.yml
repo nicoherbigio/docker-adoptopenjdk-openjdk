@@ -11,8 +11,11 @@ env:
   DOCKER_IMAGE_CONTEXT_PATH: 11.0/jdk/debian/default/
   DOCKERHUB_IMAGE_TAGS: |
     nicoherbigde/adoptopenjdk-openjdk:11
+    nicoherbigio/adoptopenjdk-openjdk:11
     nicoherbigde/adoptopenjdk-openjdk:11.0
+    nicoherbigio/adoptopenjdk-openjdk:11.0
     nicoherbigde/adoptopenjdk-openjdk:11.0.9
+    nicoherbigio/adoptopenjdk-openjdk:11.0.9
 
 jobs:
   build-and-push:
