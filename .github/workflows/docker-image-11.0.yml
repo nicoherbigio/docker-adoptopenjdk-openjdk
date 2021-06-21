@@ -14,8 +14,8 @@ env:
     nicoherbigio/adoptopenjdk-openjdk:11
     nicoherbigde/adoptopenjdk-openjdk:11.0
     nicoherbigio/adoptopenjdk-openjdk:11.0
-    nicoherbigde/adoptopenjdk-openjdk:11.0.10
-    nicoherbigio/adoptopenjdk-openjdk:11.0.10
+    nicoherbigde/adoptopenjdk-openjdk:11.0.11
+    nicoherbigio/adoptopenjdk-openjdk:11.0.11
 
 jobs:
   build-and-push:
