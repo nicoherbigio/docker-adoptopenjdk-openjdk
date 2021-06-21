@@ -14,8 +14,8 @@ env:
     nicoherbigio/adoptopenjdk-openjdk:8
     nicoherbigde/adoptopenjdk-openjdk:8.0
     nicoherbigio/adoptopenjdk-openjdk:8.0
-    nicoherbigde/adoptopenjdk-openjdk:8.0.282
-    nicoherbigio/adoptopenjdk-openjdk:8.0.282
+    nicoherbigde/adoptopenjdk-openjdk:8.0.292
+    nicoherbigio/adoptopenjdk-openjdk:8.0.292
 
 jobs:
   build-and-push:
