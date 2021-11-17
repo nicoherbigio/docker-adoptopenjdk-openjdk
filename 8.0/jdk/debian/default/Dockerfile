@@ -3,9 +3,9 @@ FROM nicoherbigde/debian:buster
 LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
 
-# Install Adopt Open Java Development Kit (AdoptOpenJDK)
+# Install Eclipse Temurin Open Java Development Kit (Eclipse Temurin OpenJDK)
 
-ARG JAVA_DOWNLOAD_URL=https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u302-b08/OpenJDK8U-jdk_x64_linux_hotspot_8u302b08.tar.gz
+ARG JAVA_DOWNLOAD_URL=https://github.com/adoptium/temurin8-binaries/releases/download/jdk8u312-b07/OpenJDK8U-jdk_x64_linux_hotspot_8u312b07.tar.gz
 
 ARG JAVA_INSTALL_DIR=/opt/java/openjdk
 
