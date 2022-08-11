@@ -38,8 +38,8 @@ jobs:
               nicoherbigio/adoptopenjdk-openjdk:11
               nicoherbigde/adoptopenjdk-openjdk:11.0
               nicoherbigio/adoptopenjdk-openjdk:11.0
-              nicoherbigde/adoptopenjdk-openjdk:11.0.14
-              nicoherbigio/adoptopenjdk-openjdk:11.0.14
+              nicoherbigde/adoptopenjdk-openjdk:11.0.15
+              nicoherbigio/adoptopenjdk-openjdk:11.0.15
 
     steps:
       - name: Checkout Git Repository
