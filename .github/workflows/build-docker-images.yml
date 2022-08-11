@@ -40,6 +40,15 @@ jobs:
               nicoherbigio/adoptopenjdk-openjdk:11.0
               nicoherbigde/adoptopenjdk-openjdk:11.0.16
               nicoherbigio/adoptopenjdk-openjdk:11.0.16
+          - version: 17.0
+            docker-context: 17.0/jdk/debian/default
+            docker-tags: |
+              nicoherbigde/adoptopenjdk-openjdk:17
+              nicoherbigio/adoptopenjdk-openjdk:17
+              nicoherbigde/adoptopenjdk-openjdk:17.0
+              nicoherbigio/adoptopenjdk-openjdk:17.0
+              nicoherbigde/adoptopenjdk-openjdk:17.0.4
+              nicoherbigio/adoptopenjdk-openjdk:17.0.4
 
     steps:
       - name: Checkout Git Repository
