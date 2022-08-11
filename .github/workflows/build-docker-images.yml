@@ -29,8 +29,8 @@ jobs:
               nicoherbigio/adoptopenjdk-openjdk:8
               nicoherbigde/adoptopenjdk-openjdk:8.0
               nicoherbigio/adoptopenjdk-openjdk:8.0
-              nicoherbigde/adoptopenjdk-openjdk:8.0.312
-              nicoherbigio/adoptopenjdk-openjdk:8.0.312
+              nicoherbigde/adoptopenjdk-openjdk:8.0.345
+              nicoherbigio/adoptopenjdk-openjdk:8.0.345
           - version: 11.0
             docker-context: 11.0/jdk/debian/default
             docker-tags: |
