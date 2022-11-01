@@ -47,8 +47,8 @@ jobs:
               nicoherbigio/adoptopenjdk-openjdk:17
               nicoherbigde/adoptopenjdk-openjdk:17.0
               nicoherbigio/adoptopenjdk-openjdk:17.0
-              nicoherbigde/adoptopenjdk-openjdk:17.0.4
-              nicoherbigio/adoptopenjdk-openjdk:17.0.4
+              nicoherbigde/adoptopenjdk-openjdk:17.0.5
+              nicoherbigio/adoptopenjdk-openjdk:17.0.5
 
     steps:
       - name: Checkout Git Repository

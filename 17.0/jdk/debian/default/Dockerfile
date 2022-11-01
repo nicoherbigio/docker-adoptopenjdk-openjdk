@@ -5,7 +5,7 @@ LABEL maintainer="Nico Herbig <nico@nicoherbig.io>"
 
 # Install Eclipse Temurin Open Java Development Kit (Eclipse Temurin OpenJDK)
 
-ARG JAVA_DOWNLOAD_URL=https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.4_8.tar.gz
+ARG JAVA_DOWNLOAD_URL=https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.5%2B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.5_8.tar.gz
 
 ARG JAVA_INSTALL_DIR=/opt/java/openjdk
 
