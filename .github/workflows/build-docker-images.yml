@@ -26,29 +26,20 @@ jobs:
             docker-context: 8.0/jdk/debian/default
             docker-tags: |
               nicoherbigde/adoptopenjdk-openjdk:8
-              nicoherbigio/adoptopenjdk-openjdk:8
               nicoherbigde/adoptopenjdk-openjdk:8.0
-              nicoherbigio/adoptopenjdk-openjdk:8.0
               nicoherbigde/adoptopenjdk-openjdk:8.0.352
-              nicoherbigio/adoptopenjdk-openjdk:8.0.352
           - version: 11.0
             docker-context: 11.0/jdk/debian/default
             docker-tags: |
               nicoherbigde/adoptopenjdk-openjdk:11
-              nicoherbigio/adoptopenjdk-openjdk:11
               nicoherbigde/adoptopenjdk-openjdk:11.0
-              nicoherbigio/adoptopenjdk-openjdk:11.0
               nicoherbigde/adoptopenjdk-openjdk:11.0.17
-              nicoherbigio/adoptopenjdk-openjdk:11.0.17
           - version: 17.0
             docker-context: 17.0/jdk/debian/default
             docker-tags: |
               nicoherbigde/adoptopenjdk-openjdk:17
-              nicoherbigio/adoptopenjdk-openjdk:17
               nicoherbigde/adoptopenjdk-openjdk:17.0
-              nicoherbigio/adoptopenjdk-openjdk:17.0
               nicoherbigde/adoptopenjdk-openjdk:17.0.5
-              nicoherbigio/adoptopenjdk-openjdk:17.0.5
 
     steps:
       - name: Checkout Git Repository
